@@ -116,7 +116,9 @@
 						module += '<td>' + obj['notes'][i].code + '</td>';
 					}
 					module += '<td>' + obj['notes'][i].note + '</td>';
-					module += '<td style="color:red;">' + (obj['notes'][i].absence===false?'':obj['notes'][i].absence) + '</td>';
+					var color = obj["notes"][i].absence==="ABJ" ? "green" : "red";
+					var absence = obj['notes'][i].absence===false?'':obj['notes'][i].absence;
+					module += '<td style="color:'+color+'">'+absence+'</td>';
                     module += '</tr>';
                 }
                 output.html(module);
