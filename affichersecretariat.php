@@ -23,7 +23,7 @@
         </nav>
     </header>
     <main>
-        <h1>Visualiser mes notes</h1>
+        <h1>Afficher les notes reçues par mail</h1>
         <div>
             <section>
                 <div>
@@ -53,6 +53,7 @@
                     <h2>Affichage des notes</h2>
                 </div>
                 <div>
+					<h3></h3>
                     <table>
                         <thead>
                             <tr>
@@ -83,15 +84,13 @@
             var input = $('#file');
             var output = $('section#notes tbody');
 			var txt = new FileReader();
-			
-			console.log(input);
            
 			txt.onload = function() {
                 var obj = JSON.parse(txt.result), th;
                 output.html('');
 				
 				// Title
-				$('<h2>Epreuve '+obj.codeEpr+'</h2>').insertBefore($('section#notes table'));
+				$('h3').html('Epreuve '+obj.codeEpr+'</h2>');
 				
 				// Format of table body
 				if(obj.anonymous === true) {
