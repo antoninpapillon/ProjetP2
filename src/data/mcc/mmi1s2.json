@@ -1,0 +1,598 @@
+{
+    "nomPromo": "MMI1",
+    "codeApogee": "712SEM12",
+    "semestre": "s2",
+    "coeff": 1,
+    "urlNotes": "www-apogee.univ-lemans.fr/Version_2.01/statistiques/bo/mmi/notesmmi1s2.xlsx",
+    "colonneRecap":"E",
+    "optionnel":false,
+    "UE": [
+        {
+            "intitule": "UE21 - Communication, connaissance, envir. Socio-éco : Appro",
+            "codeApogee": "712UE111",
+            "coeff": 15,
+            "colonneRecap":"F",
+            "optionnel":false,
+            "module": [
+                {
+                  "intitule": "M2101 Anglais S2",
+                  "codeApogee": "712MD101",
+                  "coeff":2,
+                  "colonneRecap":"K",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Anglais OR (T)",
+                          "codeApogee": "712EN101T1",
+                          "coeff":0.45,
+                          "type": "examen théorique",
+                          "enseignant": "Olivier ROULIN",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Anglais BB (P)",
+                          "codeApogee": "712EN101P1",
+                          "coeff":1.1,
+                          "type": "note pratique",
+                          "enseignant": "Bruno BUCHET",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Anglais OR (P)",
+                          "codeApogee": "712EN101P2",
+                          "coeff":0.45,
+                          "type": "note pratique",
+                          "enseignant": "Olivier ROULIN",
+                          "optionnel":false
+                        } 
+                    ]
+                    
+                },
+                {
+                  "intitule": "M2102 Langue vivante S2",
+                  "codeApogee": "712MD118",
+                  "coeff":1,
+                  "colonneRecap":"L",
+                  "optionnel":false,
+                  "sous-module": [
+                            {
+                              "intitule":"espagnol",
+                              "codeApogee": "712EN119",
+                              "coeff":1,
+                              "optionnel":false,
+                              "epreuve":[
+                                    {
+                                      "intitule": "Espagnol (T)",
+                                      "codeApogee": "712EN119T1",
+                                      "coeff":0.5,
+                                      "type": "examen théorique",
+                                      "enseignant": "Antoine COLLET / Danielle LE CLEZIO",
+                                      "optionnel":false
+                                    },
+                                    {
+                                      "intitule": "Espagnol (P)",
+                                      "codeApogee": "712EN119P1",
+                                      "coeff":0.5,
+                                      "type": "note pratique",
+                                      "enseignant": "Antoine COLLET / Danielle LE CLEZIO",
+                                      "optionnel":false
+                                    }
+                                ]
+                            },
+                            {
+                              "intitule":"allemand",
+                              "codeApogee": "712EN120",
+                              "coeff":1,
+                              "optionnel":false,
+                              "epreuve":[
+                                    {
+                                      "intitule": "Allemand (T)",
+                                      "codeApogee": "712EN120T1",
+                                      "coeff":0.5,
+                                      "type": "examen théorique",
+                                      "enseignant": "Bruno HEURTEBIZE",
+                                      "optionnel":false
+                                    },
+                                    {
+                                      "intitule": "Allemand (P)",
+                                      "codeApogee": "712EN120P1",
+                                      "coeff":0.5,
+                                      "type": "note pratique",
+                                      "enseignant": "Bruno HEURTEBIZE",
+                                      "optionnel":false
+                                    }
+                                ]
+                            },
+                            {
+                              "intitule":"anglais renforcé",
+                              "codeApogee": "712EN121",
+                              "coeff":1,
+                              "optionnel":false,
+                              "epreuve":[
+                                    {
+                                      "intitule": "Anglais renforcé (T)",
+                                      "codeApogee": "712EN121T1",
+                                      "coeff":0.5,
+                                      "type": "examen théorique",
+                                      "enseignant": "Liz DAVIDSON",
+                                      "optionnel":false
+                                    },
+                                    {
+                                      "intitule": "Anglais renforcé (P)",
+                                      "codeApogee": "712EN121P1",
+                                      "coeff":0.5,
+                                      "type": "note pratique",
+                                      "enseignant": "Liz DAVIDSON",
+                                      "optionnel":false
+                                    }
+                                ]
+                            }                        
+                        ]
+                    },
+                    {
+                      "intitule": "M2103 Théories de l'information & de la communication S2",
+                      "codeApogee": "712MD102",
+                      "coeff":2,
+                      "colonneRecap":"M",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Communication des organisations RP (T)",
+                          "codeApogee": "712EN102T2",
+                          "coeff":0.5,
+                          "type": "examen théorique",
+                          "enseignant": "Raphaëlle CRÉTIN-PIROLLI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Communication des organisations 71 (T)",
+                          "codeApogee": "712EN102T3",
+                          "coeff":0.5,
+                          "type": "examen théorique",
+                          "enseignant": "Fabrice PIROLLI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Communication des organisations RP (P)",
+                          "codeApogee": "712EN102P1",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Raphaëlle CRÉTIN-PIROLLI",
+                          "optionnel":false
+                        } 
+                    ]
+                    },
+                    {
+                      "intitule": "M2104 Esthétique & expression artistique S2",
+                      "codeApogee": "712MD103",
+                      "coeff":1,
+                      "colonneRecap":"N",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Esthétique et expression artistique (P)",
+                          "codeApogee": "712EN103P3",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Jean-Christophe HABAULT",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M2105 Ecriture pour les médias numériques S2",
+                      "codeApogee": "712MD104",
+                      "coeff":1,
+                      "colonneRecap":"O",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Analyse multimédia (P)",
+                          "codeApogee": "712EN104P1",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Colin SCHMIDT",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M2106 Expression, communication écrite & orale S2",
+                      "codeApogee": "712MD105",
+                      "coeff":2,
+                      "colonneRecap":"P",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Communication écrite et orale (P)",
+                          "codeApogee": "712EN105P3",
+                          "coeff":1.8,
+                          "type": "note pratique",
+                          "enseignant": "Roland FREZZA",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Action de communication (P)",
+                          "codeApogee": "712EN105P4",
+                          "coeff":0.2,
+                          "type": "note pratique",
+                          "enseignant": "Jean-Christophe HABAULT",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M2107 Gestion de projet S2",
+                      "codeApogee": "712MD106",
+                      "coeff":2,
+                      "colonneRecap":"Q",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Projet tutoré – gestion de projet (P)",
+                          "codeApogee": "712EN106P2",
+                          "coeff":0.33,
+                          "type": "note pratique",
+                          "enseignant": "Christophe CHOQUET",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Projet tutoré – conception centrée utilisateur (P)",
+                          "codeApogee": "712EN106P3",
+                          "coeff":0.67,
+                          "type": "note pratique",
+                          "enseignant": "Vincent BETTENFELD",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Projet tutoré (P)",
+                          "codeApogee": "712EN106P5",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Alain CORBIÈRE",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M2108 Projet Personnel et Professionnel S2",
+                      "codeApogee": "712MD107",
+                      "coeff":1,
+                      "colonneRecap":"R",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "PPP (P)",
+                          "codeApogee": "712EN107P1",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Magali BOULET",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M2109 Environnement juridique, éco & mercatique des org S2",
+                      "codeApogee": "712MD108",
+                      "coeff":2,
+                      "colonneRecap":"S",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Environnement juridique des organisations",
+                          "codeApogee": "712EN108T1",
+                          "coeff":0.6,
+                          "type": "examen théorique",
+                          "enseignant": "Maryse LOUAISIL",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Principes de Mercatique (P)",
+                          "codeApogee": "712EN108P2",
+                          "coeff":0.8,
+                          "type": "note pratique",
+                          "enseignant": "Antoine FONDJO POLA",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Economie d'entreprise (P)",
+                          "codeApogee": "712EN108P3",
+                          "coeff":0.6,
+                          "type": "note pratique",
+                          "enseignant": "Fabien COURONNÉ",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                          "intitule": "M2110 Projet tutoré S2",
+                          "codeApogee": "712MD109",
+                          "coeff":1,
+                          "colonneRecap":"T",
+                          "optionnel":false,
+                          "epreuve": [
+                           {
+                              "intitule": "Projet tutoré (P)",
+                              "codeApogee": "712EN109P1",
+                              "coeff":1,
+                              "type": "note pratique",
+                              "enseignant": "Alain CORBIÈRE",
+                              "optionnel":false
+                            }
+                     ]
+                    }
+
+                ]
+        },
+        {
+          "intitule": "UE22 - Culture techno. & développement multimédia : Appro",
+          "codeApogee": "712UE102",
+          "coeff": 15,
+          "colonneRecap":"G",
+          "optionnel":false,
+            "module": [
+                {
+                  "intitule": "M2201 Cult. scient. & traitement de l'information S2",
+                  "codeApogee": "712MD110",
+                  "coeff":2,
+                  "colonneRecap":"U",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Mathématiques pour l'informatique (T)",
+                          "codeApogee": "712EN110T1",
+                          "coeff":0.25,
+                          "type": "épreuve théorique",
+                          "enseignant": "Younss MESSOUDI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Mathématiques pour l'informatique (P)",
+                          "codeApogee": "712EN110P1",
+                          "coeff":0.25,
+                          "type": "note pratique",
+                          "enseignant": "Younss MESSOUDI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Traitement numérique du signal (T)",
+                          "codeApogee": "712EN110T2",
+                          "coeff":0.4,
+                          "type": "épreuve théorique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Traitement numérique du signal (Examen Pratique)",
+                          "codeApogee": "712EN110P2",
+                          "coeff":0.4,
+                          "type": "examen pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Traitement numérique du signal (Projet MAX/MSP)",
+                          "codeApogee": "712EN110P5",
+                          "coeff":0.7,
+                          "type": "note pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        }
+                    ]            
+                },
+                {
+                  "intitule": "M2202 Algorithmique et développement web S2",
+                  "codeApogee": "712MD111",
+                  "coeff":2,
+                  "colonneRecap":"V",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Bases de l'objet (T)",
+                          "codeApogee": "712EN111T3",
+                          "coeff":0.5,
+                          "type": "épreuve théorique",
+                          "enseignant": "Manuel CHEVALIER",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Bases de l'objet (examen pratique)",
+                          "codeApogee": "712EN111P3",
+                          "coeff":0.5,
+                          "type": "examen pratique",
+                          "enseignant": "Manuel CHEVALIER",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Développement web (T)",
+                          "codeApogee": "712EN111T4",
+                          "coeff":0.5,
+                          "type": "examen pratique",
+                          "enseignant": "Alain CORBIÈRE",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Développement web (P)",
+                          "codeApogee": "712EN111P5",
+                          "coeff": 0.5,
+                          "type": "note pratique",
+                          "enseignant": "Alain CORBIÈRE",
+                          "optionnel": false
+                        }
+                    ]
+                },
+                {
+                  "intitule": "M2203 Base de données S2",
+                  "codeApogee": "712MD112",
+                  "coeff":2,
+                  "colonneRecap":"W",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Bases de données (T)",
+                          "codeApogee": "712EN112T1",
+                          "coeff":0.67,
+                          "type": "épreuve théorique",
+                          "enseignant": "Christoph CHOQUET",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Bases de données (P)",
+                          "codeApogee": "712EN112P2",
+                          "coeff":1.33,
+                          "type": "note pratique",
+                          "enseignant": "Christoph CHOQUET",
+                          "optionnel":false
+                        }
+                  ]
+                },
+                {
+                  "intitule": "M2204 Services sur réseaux S2",
+                  "codeApogee": "712MD113",
+                  "coeff":2,
+                  "colonneRecap":"X",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Service sur réseaux (T)",
+                          "codeApogee": "712EN113T2",
+                          "coeff":1,
+                          "type": "épreuve théorique",
+                          "enseignant": "Bruno ERNET",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Service sur réseaux (P)",
+                          "codeApogee": "712EN113P2",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Bruno ERNET",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M2205 Infographie S2",
+                  "codeApogee": "712MD114",
+                  "coeff":2,
+                  "colonneRecap":"Y",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "PAO (P)",
+                          "codeApogee": "712EN114P1",
+                          "coeff":0.75,
+                          "type": "note pratique",
+                          "enseignant": "Jacques PLARD",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Infographie / Approfondissements (P)",
+                          "codeApogee": "712EN114P2",
+                          "coeff":1.25,
+                          "type": "note pratique",
+                          "enseignant": "Jean-Christophe HABAULT",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M2206 Intégration web S2",
+                  "codeApogee": "712MD115",
+                  "coeff":2,
+                  "colonneRecap":"Z",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Prog. Evénementielle Javascript (T)",
+                          "codeApogee": "712EN115T1",
+                          "coeff":0.7,
+                          "type": "examen théorique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Prog. Evénementielle Javascript (Examen pratique)",
+                          "codeApogee": "712EN115P1",
+                          "coeff":0.6,
+                          "type": "examen pratique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Approfondissement HTML-CSS (Examen Pratique)",
+                          "codeApogee": "712EN115P2",
+                          "coeff":0.7,
+                          "type": "examen pratique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M2207 Production audiovisuelle S2",
+                  "codeApogee": "712MD116",
+                  "coeff":2,
+                  "colonneRecap":"AA",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Très-court-métrage (P)",
+                          "codeApogee": "712EN116P2",
+                          "coeff":1.5,
+                          "type": "note pratique",
+                          "enseignant": "Éric HOULIÈRE",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Post-production son (P)",
+                          "codeApogee": "712EN116P4",
+                          "coeff":0.5,
+                          "type": "note pratique",
+                          "enseignant": "François-Xavier ROBERT",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M2208 Projet tutoré S2",
+                  "codeApogee": "712MD117",
+                  "coeff":1,
+                  "colonneRecap":"AB",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Projet tutoré (P)",
+                      "codeApogee": "712EN117P1",
+                      "coeff":1,
+                      "type": "note pratique",
+                      "enseignant": "Alain CORBIÈRE",
+                      "optionnel":false
+                    }
+                  ]
+                }
+            ]
+        },
+        {
+          "intitule": "Elément facultatif",
+          "codeApogee": "702FAC01",
+          "coeff": 0.02,
+          "colonneRecap":"0",
+          "optionnel":true,
+            "module": [
+                {
+                  "intitule": "Sport",
+                  "codeApogee": "702EN001",
+                  "coeff": 0.02,
+                  "optionnel":true
+                },
+                {
+                  "intitule": "Culture",
+                  "codeApogee": "702EN002",
+                  "coeff": 0.02,
+                  "optionnel":true
+                }
+            ]          
+        }  
+    ]
+}

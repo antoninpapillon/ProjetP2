@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <script src="echarts.js"></script>
+    </head>
+    <body>
+        <div id="main" style="width: 100%;height:400px;"></div>
+    <script type="text/javascript">
+        // based on prepared DOM, initialize echarts instance
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // specify chart configuration item and data
+        var option = {
+            title: {
+                text: 'Mes notes'
+            },
+            legend: {
+                data: ['Mes notes', 'Moyenne de classe']
+            },
+            xAxis: {
+                type: 'category',
+                data: ['U1', 'U2', 'U3', 'U4', 'U5', 'U6', 'U7'],
+                axisTick: {
+                    alignWithLabel: true
+                },
+                boundaryGap : false,
+            },
+            yAxis: {
+                type: 'value',
+                max : 20,
+            },
+            series: [{
+                name: 'Mes notes',
+                data: [8, 12, 14, 7, 16, 11, 10],
+                type: 'line',
+                lineStyle: 'color:green'
+            },
+            {
+                name: 'Moyenne de classe',
+                data: [10, 10, 10, 10, 10, 10, 10],
+                type: 'line'
+            }],
+            toolbox: {
+                feature: {
+                    magicType: {type: ['line', 'bar']},
+                    saveAsImage: {}
+                },
+            },
+            tooltip: {
+                axisPointer: {
+                    type: 'cross'
+                },
+            }
+        };
+
+
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+    </script>
+    </body>
+</html>

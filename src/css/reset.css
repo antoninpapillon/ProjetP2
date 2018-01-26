@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Lato', Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	font-weight: 400;
+}
+
+h1,
+h2,
+p {
+	margin: 0;
+}
+
+header,
+main,
+footer {
+	padding: 10px;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}

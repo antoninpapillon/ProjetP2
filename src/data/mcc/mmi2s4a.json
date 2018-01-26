@@ -1,0 +1,463 @@
+{
+  "nomPromo": "MMI2",
+  "codeApogee": "714SEM20",
+  "semestre": "s4a",
+  "coeff": 1,
+  "urlNotes": "www-apogee.univ-lemans.fr/Version_2.01/statistiques/bo/mmi/notesmmi2s4a.xlsx",
+  "colonneRecap":"H",
+  "optionnel":false,
+  "UE": [
+        {
+          "intitule": "UE41 Com, cult. & connaissance envir socio-éco Alt",
+          "codeApogee": "714UE107",
+          "coeff": 15,
+          "colonneRecap":"I",
+          "optionnel":false,
+          "module": [
+            {
+              "intitule": "M4101 Anglais Alt",
+              "codeApogee": "714MD115",
+              "coeff":1,
+              "colonneRecap":"K",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Anglais CT (T) – commun PP PCAG PID",
+                  "codeApogee": "714EN121T1",
+                  "coeff":0.25,
+                  "type": "examen théorique",
+                  "enseignant": "Christopher TURNER",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Anglais CT (P)",
+                  "codeApogee": "714EN121P1",
+                  "coeff":0.25,
+                  "type": "note pratique",
+                  "enseignant": "Christopher TURNER",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Anglais CL (P)",
+                  "codeApogee": "714EN121P2",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Clément LABORIE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M41-OS101 Systèmes interactifs et communication Alt",
+              "codeApogee": "714MD114",
+              "coeff":2,
+              "colonneRecap":"L",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Communication pour le multimédia (P)",
+                  "codeApogee": "714EN102P2",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Roland FREZZA",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Interfaces et systèmes interactifs (P)",
+                  "codeApogee": "714EN102P5",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Colin SCHIMDT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Ergonomie TG (P)",
+                  "codeApogee": "714EN102P6",
+                  "coeff":0.3,
+                  "type": "note pratique",
+                  "enseignant": "Thomas GAUDY",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Ergonomie (P)",
+                  "codeApogee": "714EN102P3",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Léa TALOC",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Action de communication (P)",
+                  "codeApogee": "714EN102P7",
+                  "coeff":0.2,
+                  "type": "note pratique",
+                  "enseignant": "Jean-Christophe HABAULT",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4102 Esthétique et expression artistique",
+              "codeApogee": "714MD116",
+              "coeff":2,
+              "colonneRecap":"M",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Création graphique multimédia",
+                  "codeApogee": "714EN103P1",
+                  "coeff":2,
+                  "type": "note pratique",
+                  "enseignant": "Jean-Christophe HABAULT",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4104 Environnement juridique, économique et mercatique des organisations Alt",
+              "codeApogee": "714MD117",
+              "coeff":2,
+              "colonneRecap":"N",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Environnement juridique des org. (T) – commun PP",
+                  "codeApogee": "714EN104T1",
+                  "coeff":0.88,
+                  "type": "examen théorique",
+                  "enseignant": "Maryse LOUAISIL",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Environnement mercatique des org. (P)",
+                  "codeApogee": "714EN104P6",
+                  "coeff":0.56,
+                  "type": "note pratique",
+                  "enseignant": "Antoine FONDJO POLA",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Eléments de gestion (P)",
+                  "codeApogee": "714EN104P3",
+                  "coeff":0.56,
+                  "type": "note pratique",
+                  "enseignant": "Fabien COURONNÉ",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M41-A3103 Théories de l'information et de la communication Alt",
+              "codeApogee": "714MD113",
+              "coeff":2,
+              "colonneRecap":"O",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Analyses critiques des médias RP (T)",
+                  "codeApogee": "714EN113T1",
+                  "coeff":0.5,
+                  "type": "examen théorique",
+                  "enseignant": "Raphaëlle CRÉTIN-PIROLLI",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Analyses critiques des médias RP (P)",
+                  "codeApogee": "714EN113P1",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Raphaëlle CRÉTIN-PIROLLI",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Analyses critiques des médias CS (T)",
+                  "codeApogee": "714EN113T2",
+                  "coeff":0.5,
+                  "type": "examen théorique",
+                  "enseignant": "Colin SCHMIDT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Analyses critiques des médias CS (P)",
+                  "codeApogee": "714EN113P2",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Colin SCHMIDT",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M41-A3107 Gestion de projet Alt",
+              "codeApogee": "714MD118",
+              "coeff":1,
+              "colonneRecap":"P",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Gestion de projet (T)",
+                  "codeApogee": "714EN118T1",
+                  "coeff":0.5,
+                  "type": "examen théorique",
+                  "enseignant": "Bruno MARTINAT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Gestion de projet (P)",
+                  "codeApogee": "714EN118P1",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Bruno MARTINAT",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4106-ALT Apprentissage",
+              "codeApogee": "714MD119",
+              "coeff":5,
+              "colonneRecap":"Q",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Evaluation entreprise 1 (P)",
+                  "codeApogee": "714EN119P1",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Evaluation entreprise 2 (P)",
+                  "codeApogee": "714EN119P4",
+                  "coeff":1.5,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Rapport - entreprise et missions (P)",
+                  "codeApogee": "714EN119P2",
+                  "coeff":0.75,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Rapport - sujet approfondissement (P)",
+                  "codeApogee": "714EN119P5",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Soutenance (P)",
+                  "codeApogee": "714EN119P3",
+                  "coeff":0.75,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intitule": "UE42 Cult. Techno & dvp multimédia",
+          "codeApogee": "714UE108",
+          "coeff": 15,
+          "colonneRecap":"J",
+          "optionnel":false,
+          "module": [
+            {
+              "intitule": "M42-RCP201 Création d'une émission de Web TV Alt",
+              "codeApogee": "714MD216",
+              "coeff":2,
+              "colonneRecap":"R",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Préparation et tournage du plateau (P)",
+                  "codeApogee": "714EN202P1",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Éric HOULIÈRE",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Post-production du plateau (P)",
+                  "codeApogee": "714EN202P3",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4201 Développement multimédia Alt",
+              "codeApogee": "714MD217",
+              "coeff":2,
+              "colonneRecap":"S",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Développement web XML (T)",
+                  "codeApogee": "714EN212T1",
+                  "coeff":0.5,
+                  "type": "examen théorique",
+                  "enseignant": "Sébastien IKSAL",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Développement multimédia  web XML (P)",
+                  "codeApogee": "714EN212P1",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Sébastien IKSAL",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Développement multimédia (examen pratique)",
+                  "codeApogee": "714EN212P2",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4202 Infographie Alt",
+              "codeApogee": "714MD218",
+              "coeff":2,
+              "colonneRecap":"T",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Infographie fixe et animée 2D-3D (P)",
+                  "codeApogee": "714EN202P2",
+                  "coeff":2,
+                  "type": "note pratique",
+                  "enseignant": "Jean-Christophe HABAULT",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M42-A3204 Services sur réseaux Alt",
+              "codeApogee": "714MD213",
+              "coeff":2,
+              "colonneRecap":"U",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Protocoles et prog.réseau (T)",
+                  "codeApogee": "714EN213T1",
+                  "coeff":1,
+                  "type": "examen théorique",
+                  "enseignant": "Manuel CHEVALIER",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Protocoles et prog.réseau (P)",
+                  "codeApogee": "714EN213P1",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Manuel CHEVALIER",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M42-A3207 Production audiovisuelle Alt",
+              "codeApogee": "714MD214",
+              "coeff":2,
+              "colonneRecap":"V",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Production audiovisuelle (P)",
+                  "codeApogee": "714EN214P1",
+                  "coeff":2,
+                  "type": "note pratique",
+                  "enseignant": "Éric HOULIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4205-ALT Apprentissage",
+              "codeApogee": "714MD211",
+              "coeff":5,
+              "colonneRecap":"W",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Evaluation entreprise 1 (P)",
+                  "codeApogee": "714EN211P1",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Evaluation entreprise 2 (P)",
+                  "codeApogee": "714EN211P4",
+                  "coeff":1.5,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Rapport - entreprise et missions (P)",
+                  "codeApogee": "714EN211P2",
+                  "coeff":0.75,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Rapport - sujet approfondissement (P)",
+                  "codeApogee": "714EN211P5",
+                  "coeff":1,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Soutenance (P)",
+                  "codeApogee": "714EN211P3",
+                  "coeff":0.75,
+                  "type": "note pratique",
+                  "enseignant": "Fabien GUNTZ",
+                  "optionnel":false
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "intitule": "Elément facultatif",
+            "codeApogee": "704FAC01",
+            "coeff": 0.02,
+            "colonneRecap":"0",
+          "optionnel":true,
+            "module": [
+                {
+                  "intitule": "Sport",
+                  "codeApogee": "704EN001",
+                  "coeff": 0.02,
+                  "optionnel":true
+                },
+                {
+                  "intitule": "Culture",
+                  "codeApogee": "704EN002",
+                  "coeff": 0.02,
+                  "optionnel":true
+                }
+            ]          
+        }  
+    ]
+}

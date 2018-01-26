@@ -1,0 +1,393 @@
+{
+    "nomPromo": "MMI2A",
+    "codeApogee": "713SEM20",
+    "semestre": "s3a",
+    "coeff": 1,
+    "urlNotes": "www-apogee.univ-lemans.fr/Version_2.01/statistiques/bo/mmi/notesmmi2as3.xlsx",
+    "colonneRecap":"D",
+    "optionnel":false,
+    "UE": [
+        {
+          "intitule": "UE31 Communication, culture et connaissance de l'environnement socio-économique : maîtrise",
+          "codeApogee": "713UE103",
+          "coeff": 15,
+          "colonneRecap":"E",
+          "optionnel":false,
+            "module": [
+                {
+                  "intitule": "M3101 Anglais",
+                  "codeApogee": "713MD112",
+                  "coeff":2,
+                  "colonneRecap":"G",
+                  "optionnel":false,
+                    "epreuve": [
+                        {
+                          "intitule": "Anglais CT (T)",
+                          "codeApogee": "713EN101T1",
+                          "coeff":0.5,
+                          "type": "examen théorique",
+                          "enseignant": "Christopher TURNER",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Anglais CT (P)",
+                          "codeApogee": "713EN101P1",
+                          "coeff":0.5,
+                          "type": "note pratique",
+                          "enseignant": "Christopher TURNER",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Anglais CL (P)",
+                          "codeApogee": "713EN101P2",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Clément LABORIE",
+                          "optionnel":false
+                        } 
+                    ]
+                    
+                },
+                {
+                  "intitule": "M3104 Esthétique & expression artistique",
+                  "codeApogee": "713MD114",
+                  "coeff":1,
+                  "colonneRecap":"H",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Création graphique multimédia (P)",
+                      "codeApogee": "713EN114P1",
+                      "coeff":1,
+                      "type": "note pratique",
+                      "enseignant": "Jean-Christophe HABAULT",
+                      "optionnel":false
+                    }
+                  ]
+                },
+              {
+                "intitule": "M3105 Ecriture pour les médias numériques",
+                "codeApogee": "713MD105",
+                "coeff":2,
+                "colonneRecap":"I",
+                "optionnel":false,
+                "epreuve": [
+                  {
+                    "intitule": "Construction de scénario EH (T)",
+                    "codeApogee": "713EN105T1",
+                    "coeff":0.6,
+                    "type": "examen théorique",
+                    "enseignant": "Eric HOULIERE",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Construction de scénario EH (P)",
+                    "codeApogee": "713EN105P1",
+                    "coeff":1.4,
+                    "type": "note pratique",
+                    "enseignant": "Colin SCHMIDT",
+                    "optionnel":false
+                  }
+                ]
+              },
+              {
+                "intitule": "M3106 Expression, communication écrite et orale",
+                "codeApogee": "713MD115",
+                "coeff":1,
+                "colonneRecap":"J",
+                "optionnel":false,
+                "epreuve": [
+                  {
+                    "intitule": "Expression, communication écrite et orale (T)",
+                    "codeApogee": "713EN106T1",
+                    "coeff":0.33,
+                    "type": "examen théorique",
+                    "enseignant": "Roland FREZZA",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Expression, communication écrite et orale (P)",
+                    "codeApogee": "713EN106P1",
+                    "coeff":0.33,
+                    "type": "note pratique",
+                    "enseignant": "Roland FREZZA",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Communication interpersonnelle 71 (P)",
+                    "codeApogee": "713EN106P2",
+                    "coeff":0.34,
+                    "type": "note pratique",
+                    "enseignant": "Bruno MARTINAT",
+                    "optionnel":false
+                  }
+                ]
+              },
+              {
+                "intitule": "M3108 PPP",
+                "codeApogee": "713MD108",
+                "coeff":1,
+                "colonneRecap":"K",
+                "optionnel":false,
+                "epreuve": [
+                  {
+                    "intitule": "Projet personnel et professionnel (P)",
+                    "codeApogee": "713EN108P1",
+                    "coeff":1,
+                    "type": "note pratique",
+                    "enseignant": "Magali BOULET",
+                    "optionnel":false
+                  }
+                ]
+              },
+              {
+                "intitule": "M3109 Environnement juridique, économique et mercatique des organisations",
+                "codeApogee": "713MD109",
+                "coeff":2,
+                "colonneRecap":"L",
+                "optionnel":false,
+                "epreuve": [
+                  {
+                    "intitule": "Droit de l'information et de la com (T)",
+                    "codeApogee": "713EN109T1",
+                    "coeff":1,
+                    "type": "examen théorique",
+                    "enseignant": "Marylin DEFRANCHI / Pascaline COLOMBANI",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Economie des médias (T)",
+                    "codeApogee": "713EN109T2",
+                    "coeff":0.5,
+                    "type": "examen théorique",
+                    "enseignant": "Fabien COURONNE",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Economie des médias (P)",
+                    "codeApogee": "713EN109P2",
+                    "coeff":0.5,
+                    "type": "note pratique",
+                    "enseignant": "Fabien COURONNE",
+                    "optionnel":false
+                  }
+                ]
+              },
+              {
+                "intitule": "M3110-ALT Apprentissage",
+                "codeApogee": "713MD111",
+                "coeff":6,
+                "colonneRecap":"M",
+                "optionnel":false,
+                "epreuve": [
+                  {
+                    "intitule": "Evaluation entreprise 1 (P)",
+                    "codeApogee": "713EN111P1",
+                    "coeff":3,
+                    "type": "note pratique",
+                    "enseignant": "Fabien GUNTZ",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Présentation entreprise (P)",
+                    "codeApogee": "713EN111P2",
+                    "coeff":1.5,
+                    "type": "note pratique",
+                    "enseignant": "Fabien GUNTZ",
+                    "optionnel":false
+                  },
+                  {
+                    "intitule": "Synthèse sujet approfondissement (P)",
+                    "codeApogee": "713EN111P3",
+                    "coeff":1.5,
+                    "type": "note pratique",
+                    "enseignant": "Fabien GUNTZ",
+                    "optionnel":false
+                  }
+                ]
+              }
+            ]
+        },
+        {
+          "intitule": "UE32 Culture technologique et développement multimédia : maîtrise",
+          "codeApogee": "713UE104",
+          "coeff": 15,
+          "colonneRecap":"F",
+          "optionnel":false,
+          "module": [
+                {
+                  "intitule": "M3201 Cult. scient. & traitement de l'information",
+                  "codeApogee": "713MD201",
+                  "coeff":2,
+                  "colonneRecap":"N",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Mathématiques pour le multimédia (T)",
+                          "codeApogee": "713EN201T1",
+                          "coeff":0.5,
+                          "type": "examen théorique",
+                          "enseignant": "Younss MESSOUDI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Traitement numérique du signal (Examen pratique)",
+                          "codeApogee": "713EN201P2",
+                          "coeff":0.7,
+                          "type": "examen pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Traitement numérique du signal (Projet MAX/MSP/JITTER)",
+                          "codeApogee": "713EN201P5",
+                          "coeff":0.8,
+                          "type": "note pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        }                        
+                    ]            
+                },
+                {
+                  "intitule": "M3202 Développement web",
+                  "codeApogee": "713MD210",
+                  "coeff":2,
+                  "colonneRecap":"O",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Développement avancé php",
+                      "codeApogee": "713EN202T1",
+                      "coeff":1,
+                      "type": "examen théorique",
+                      "enseignant": "Manuel CHEVALIER",
+                      "optionnel":false
+                    },
+                    {
+                      "intitule": "Développement avancé PHP (Examen pratique)",
+                      "codeApogee": "713EN202P2",
+                      "coeff":1,
+                      "type": "examen pratique",
+                      "enseignant": "Manuel CHEVALIER",
+                      "optionnel":false
+                    }
+                  ]
+                },
+                {
+                  "intitule": "M3203 Programmation objet et événementielle",
+                  "codeApogee": "713MD211",
+                  "coeff":2,
+                  "colonneRecap":"P",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Programmation objets (T)",
+                      "codeApogee": "713EN203T1",
+                      "coeff":1,
+                      "type": "examen théorique",
+                      "enseignant": "Sébastien IKSAL",
+                      "optionnel":false
+                    },
+                    {
+                      "intitule": "Programmation objets (P)",
+                      "codeApogee": "713EN203P1",
+                      "coeff":1,
+                      "type": "note pratique",
+                      "enseignant": "Sébastien IKSAL",
+                      "optionnel":false
+                    }
+                  ]
+                },
+                {
+                  "intitule": "M3205 Infographie",
+                  "codeApogee": "713MD212",
+                  "coeff":2,
+                  "colonneRecap":"Q",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Infographie fixe et animée 2D-3D",
+                      "codeApogee": "713EN212P1",
+                      "coeff":2,
+                      "type": "note pratique",
+                      "enseignant": "Jean-Christophe HABAULT",
+                      "optionnel":false
+                    }
+                  ]
+                },
+                {
+                  "intitule": "M3206 Intégration multimédia",
+                  "codeApogee": "713MD213",
+                  "coeff":2,
+                  "colonneRecap":"R",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Approfondissement HTML-CSS (P)",
+                      "codeApogee": "713EN213P1",
+                      "coeff":2,
+                      "type": "note pratique",
+                      "enseignant": "Corentin HATTE",
+                      "optionnel":false
+                    }
+                  ]
+                },
+                {
+                  "intitule": "M3208-ALT Apprentissage",
+                  "codeApogee": "713MD209",
+                  "coeff":5,
+                  "colonneRecap":"S",
+                  "optionnel":false,
+                  "epreuve": [
+                    {
+                      "intitule": "Evaluation entreprise 1 (P)",
+                      "codeApogee": "713EN209P1",
+                      "coeff":3,
+                      "type": "note pratique",
+                      "enseignant": "Fabien GUNTZ",
+                      "optionnel":false
+                    },
+                    {
+                      "intitule": "Présentation entreprise (P)",
+                      "codeApogee": "713EN209P2",
+                      "coeff":1,
+                      "type": "note pratique",
+                      "enseignant": "Fabien GUNTZ",
+                      "optionnel":false
+                    },
+                    {
+                      "intitule": "Synthèse sujet approfondissement (P)",
+                      "codeApogee": "713EN209P3",
+                      "coeff":1,
+                      "type": "note pratique",
+                      "enseignant": "Fabien GUNTZ",
+                      "optionnel":false
+                    }
+                  ]
+                }
+            ]
+        },
+        {
+          "intitule": "Elément facultatif",
+          "codeApogee": "703FAC01",
+          "coeff": 0.02,
+          "UEL" : true,
+          "colonneRecap":"0",
+          "optionnel":true,
+          "module": [
+            {
+              "intitule": "Sport",
+              "codeApogee": "701EN001",
+              "coeff": 0.02,
+              "optionnel":true
+            },
+            {
+              "intitule": "Culture",
+              "codeApogee": "701EN002",
+              "coeff": 0.02,
+              "optionnel":true
+            }
+          ]
+        }  
+    ]
+}

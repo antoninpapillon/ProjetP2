@@ -1,0 +1,493 @@
+{
+  "nomPromo": "MMI2",
+  "codeApogee": "714SEM10",
+  "semestre": "s4pcag",
+  "coeff": 1,
+  "urlNotes": "www-apogee.univ-lemans.fr/Version_2.01/statistiques/bo/mmi/notesmmi2s4pcag.xlsx",
+  "colonneRecap":"H",
+  "optionnel":false,
+  "UE": [
+        {
+          "intitule": "UE41 Com, cult. & connaissance envir socio-éco (PCAG)",
+          "codeApogee": "714UE105",
+          "coeff": 16,
+          "colonneRecap":"I",
+          "optionnel":false,
+          "module": [
+            {
+              "intitule": "M41-AT107 Langues vivantes approfondissement",
+              "codeApogee": "714MD101",
+              "coeff":2,
+              "colonneRecap":"K",
+              "optionnel":false,
+              "sous-module": [
+                {
+                  "intitule":"Anglais",
+                  "codeApogee": "714EN121",
+                  "coeff":1.25,
+                  "optionnel":false,
+                  "epreuve":[
+                    {
+                      "intitule":"Anglais CT (T) - commun PP PID ALT",
+                      "codeApogee": "714EN121T1",
+                      "coeff":0.38,
+                      "type": "examen théorique",
+                      "enseignant": "Malcolm TURNER",
+                      "optionnel":false
+                    },
+                    {
+                      "intitule":"Anglais CT (P)",
+                      "codeApogee": "714EN121P1",
+                      "coeff":0.37,
+                      "type": "note pratique",
+                      "enseignant": "Malcolm TURNER",
+                      "optionnel":false
+                    },
+                    {
+                      "intitule":"Anglais CL (P)",
+                      "codeApogee": "714EN121P2",
+                      "coeff":0.5,
+                      "type": "note pratique",
+                      "enseignant": "Clément LABORIE",
+                      "optionnel":false
+                    }
+                  ]
+                },
+                {
+                  "intitule":"Langues vivantes 2",
+                  "codeApogee": "714EN122",
+                  "coeff":0.75,
+                  "optionnel":false,
+                  "sous-module":[
+                    {
+                      "intitule":"Espagnol",
+                      "codeApogee": "714EN034",
+                      "coeff":0.75,
+                      "optionnel":false,
+                      "epreuve":[
+                        {
+                          "intitule":"Espagnol (T) - commun PP PID",
+                          "codeApogee": "714EN034T1",
+                          "coeff":0.38,
+                          "type": "examen théorique",
+                          "enseignant": "Alicia MARINO-GARCIA / Esperanza ZOMENO LOPEZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule":"Espagnol (P)",
+                          "codeApogee": "714EN034P1",
+                          "coeff":0.37,
+                          "type": "note pratique",
+                          "enseignant": "Alicia MARINO-GARCIA / Esperanza ZOMENO LOPEZ",
+                          "optionnel":false
+                        }
+                      ]
+                    },
+                    {
+                      "intitule":"Allemand",
+                      "codeApogee": "714EN123",
+                      "coeff":0.75,
+                      "optionnel":false,
+                      "epreuve":[
+                        {
+                          "intitule":"Allemand (T) - commun PP PID",
+                          "codeApogee": "714EN123T1",
+                          "coeff":0.38,
+                          "type": "examen théorique",
+                          "enseignant": "Bruno HEURTEBIZE",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule":"Allemand (P)",
+                          "codeApogee": "714EN123P1",
+                          "coeff":0.37,
+                          "type": "note pratique",
+                          "enseignant": "Bruno HEURTEBIZE",
+                          "optionnel":false
+                        }
+                      ]
+                    },
+                    {
+                      "intitule":"Anglais renforcé",
+                      "codeApogee": "714EN035",
+                      "coeff":0.75,
+                      "optionnel":false,
+                      "epreuve":[
+                        {
+                          "intitule":"Anglais renforcé (T) - commun PP PID",
+                          "codeApogee": "714EN035T1",
+                          "coeff":0.38,
+                          "type": "examen théorique",
+                          "enseignant": "Malcolm TURNER",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule":"Anglais renforcé (P)",
+                          "codeApogee": "714EN035P1",
+                          "coeff":0.37,
+                          "type": "note pratique",
+                          "enseignant": "Malcolm TURNER",
+                          "optionnel":false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "intitule": "M41-OS101 Systèmes interactifs et communication",
+              "codeApogee": "714MD107",
+              "coeff":2,
+              "colonneRecap":"L",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Interfaces et systèmes interactifs (P)",
+                  "codeApogee": "714EN102P5",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Colin SCHMIDT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Ergonomie TG (P)",
+                  "codeApogee": "714EN102P6",
+                  "coeff":0.47,
+                  "type": "note pratique",
+                  "enseignant": "Thomas GAUDY",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Ergonomie (P)",
+                  "codeApogee": "714EN102P3",
+                  "coeff":0.5,
+                  "type": "note pratique",
+                  "enseignant": "Léa TALOC",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Action de communication (P)",
+                  "codeApogee": "714EN102P7",
+                  "coeff":0.2,
+                  "type": "note pratique",
+                  "enseignant": "Jean-Christophe HABAULT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN102P4",
+                  "coeff":0.33,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4102 Esthétique et expression artistique",
+              "codeApogee": "714MD103",
+              "coeff":2,
+              "colonneRecap":"M",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Création graphique multimédia (P)",
+                  "codeApogee": "714EN103P1",
+                  "coeff":1.67,
+                  "type": "note pratique",
+                  "enseignant": "Jean-Christophe HABAULT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN103P2",
+                  "coeff":0.33,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M41-OS108 Théorie de l'information et de la communication avancée",
+              "codeApogee": "714MD108",
+              "coeff":2,
+              "colonneRecap":"N",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "InfoCom universitaire (T)",
+                  "codeApogee": "714EN108T1",
+                  "coeff":0.82,
+                  "type": "examen théorique",
+                  "enseignant": "Colin SCHMIDT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Information - Communication (T)",
+                  "codeApogee": "714EN108T2",
+                  "coeff":0.42,
+                  "type": "examen théorique",
+                  "enseignant": "Fabrice PIROLLI",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Information - Communication (P)",
+                  "codeApogee": "714EN108P3",
+                  "coeff":0.42,
+                  "type": "note pratique",
+                  "enseignant": "Fabrice PIROLLI",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN108P2",
+                  "coeff":0.34,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4105 Projet tutoré",
+              "codeApogee": "714MD105",
+              "coeff":2,
+              "colonneRecap":"O",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN105P1",
+                  "coeff":2,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4106 Stage",
+              "codeApogee": "714MD106",
+              "coeff":6,
+              "colonneRecap":"P",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Mission (P)",
+                  "codeApogee": "714EN106P1",
+                  "coeff":2.58,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Rapport (P)",
+                  "codeApogee": "714EN106P2",
+                  "coeff":2.58,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Soutenance (P)",
+                  "codeApogee": "714EN106P3",
+                  "coeff":0.84,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intitule": "UE42 Cult. Techno & dvp multimédia (PCAG)",
+          "codeApogee": "714UE106",
+          "coeff": 14,
+          "colonneRecap":"J",
+          "optionnel":false,
+          "module": [
+            {
+              "intitule": "M42-RCP201 Création d'une émission de Web TV",
+              "codeApogee": "714MD206",
+              "coeff":2,
+              "colonneRecap":"Q",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Motion Design (P)",
+                  "codeApogee": "714EN202P6",
+                  "coeff":0.49,
+                  "type": "note pratique",
+                  "enseignant": "Éric HOULIÈRE",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Reportage (P)",
+                  "codeApogee": "714EN202P1",
+                  "coeff":0.59,
+                  "type": "note pratique",
+                  "enseignant": "Éric HOULIÈRE",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Emission de plateau (P)",
+                  "codeApogee": "714EN202P3",
+                  "coeff":0.59,
+                  "type": "note pratique",
+                  "enseignant": "Éric HOULIÈRE",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN202P4",
+                  "coeff":0.33,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4201 Développement multimédia",
+              "codeApogee": "714MD207",
+              "coeff":2,
+              "colonneRecap":"R",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Produit Fil Rouge (P)",
+                  "codeApogee": "714EN207P1",
+                  "coeff":0.83,
+                  "type": "note pratique",
+                  "enseignant": "jean-Christophe HABAULT/Esteban LOISEAU",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Produit Fil Rouge – évaluation technique (P)",
+                  "codeApogee": "714EN203P4",
+                  "coeff":0.84,
+                  "type": "note pratique",
+                  "enseignant": "Esteban LOISEAU",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN203P2",
+                  "coeff":0.33,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4202 Infographie",
+              "codeApogee": "714MD208",
+              "coeff":2,
+              "colonneRecap":"S",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Infographie fixe et animée 2D-3D (P)",
+                  "codeApogee": "714EN208P2",
+                  "coeff":1.11,
+                  "type": "note pratique",
+                  "enseignant": "Jean-Christophe HABAULT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "3D interactive",
+                  "codeApogee": "714EN208P3",
+                  "coeff":0.55,
+                  "type": "note pratique",
+                  "enseignant": "Vincent BETTENFELD",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN208P1",
+                  "coeff":0.34,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4204 Projet tutoré",
+              "codeApogee": "714MD204",
+              "coeff":2,
+              "colonneRecap":"T",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Projet tutoré (P)",
+                  "codeApogee": "714EN204P1",
+                  "coeff":2,
+                  "type": "note pratique",
+                  "enseignant": "Alain CORBIÈRE",
+                  "optionnel":false
+                }
+              ]
+            },
+            {
+              "intitule": "M4205 Stage",
+              "codeApogee": "714MD205",
+              "coeff":6,
+              "colonneRecap":"U",
+              "optionnel":false,
+              "epreuve": [
+                {
+                  "intitule": "Mission (P)",
+                  "codeApogee": "714EN205P1",
+                  "coeff":2.58,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Rapport (P)",
+                  "codeApogee": "714EN205P2",
+                  "coeff":2.58,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                },
+                {
+                  "intitule": "Soutenance (P)",
+                  "codeApogee": "714EN205P3",
+                  "coeff":0.84,
+                  "type": "note pratique",
+                  "enseignant": "Anne-Marie PUIZILLOUT",
+                  "optionnel":false
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "intitule": "Elément facultatif",
+            "codeApogee": "704FAC01",
+            "coeff": 0.02,
+            "colonneRecap":"0",
+          "optionnel":true,
+            "module": [
+                {
+                  "intitule": "Sport",
+                  "codeApogee": "704EN001",
+                  "coeff": 0.02,
+                  "optionnel":true
+                },
+                {
+                  "intitule": "Culture",
+                  "codeApogee": "704EN002",
+                  "coeff": 0.02,
+                  "optionnel":true
+                }
+            ]          
+        }  
+    ]
+}

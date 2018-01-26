@@ -1,0 +1,514 @@
+{
+    "nomPromo": "MMI1",
+    "codeApogee": "711SEM11",
+    "semestre": "s1",
+    "coeff": 1,
+    "urlNotes": "www-apogee.univ-lemans.fr/Version_2.01/statistiques/bo/mmi/notesmmi1.xlsx",
+    "colonneRecap":"D",
+    "optionnel":false,
+    "UE": [
+        {
+            "intitule": "UE11 - Communication, connaissance, envir. Socio-éco : Bases",
+            "codeApogee": "711UE111",
+            "coeff": 16,
+            "colonneRecap":"E",
+            "optionnel":false,
+            "module": [
+                {
+                  "intitule": "M1101 Anglais S1",
+                  "codeApogee": "711MD101",
+                  "coeff":2,
+                  "colonneRecap":"G",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Anglais (Vocabulaire et cours)",
+                          "codeApogee": "711EN101P1",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Bruno BUCHET",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Anglais (Exposé)",
+                          "codeApogee": "711EN101P2",
+                          "coeff":0.45,
+                          "type": "note pratique",
+                          "enseignant": "Bruno BUCHET",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Anglais (Compréhension orale)",
+                          "codeApogee": "711EN101P3",
+                          "coeff":0.55,
+                          "type": "note pratique",
+                          "enseignant": "Bruno BUCHET",
+                          "optionnel":false
+                        } 
+                    ]
+                    
+                },
+                {
+                  "intitule": "M1102 Langue vivante 2 S1",
+                  "codeApogee": "711MD117",
+                  "coeff":1,
+                  "colonneRecap":"H",
+                  "optionnel":false,
+                  "sous-module": [
+                            {
+                              "intitule":"espagnol",
+                              "codeApogee": "711EN118",
+                              "coeff":1,
+                              "optionnel":false,
+                              "epreuve":[
+                                    {
+                                      "intitule": "Espagnol (T)",
+                                      "codeApogee": "711EN118T1",
+                                      "coeff":0.5,
+                                      "type": "examen théorique",
+                                      "enseignant": "Antoine COLLET / Danielle LE CLEZIO",
+                                      "optionnel":false
+                                    },
+                                    {
+                                      "intitule": "Espagnol (P)",
+                                      "codeApogee": "711EN118P1",
+                                      "coeff":0.5,
+                                      "type": "note pratique",
+                                      "enseignant": "Antoine COLLET / Danielle LE CLEZIO",
+                                      "optionnel":false
+                                    }
+                                ]
+                            },
+                            {
+                              "intitule":"allemand",
+                              "codeApogee": "711EN119",
+                              "coeff":1,
+                              "optionnel":false,
+                              "epreuve":[
+                                    {
+                                      "intitule": "Allemand (T)",
+                                      "codeApogee": "711EN119T1",
+                                      "coeff":0.5,
+                                      "type": "examen théorique",
+                                      "enseignant": "Bruno HEURTEBIZE",
+                                      "optionnel":false
+                                    },
+                                    {
+                                      "intitule": "Allemand (P)",
+                                      "codeApogee": "711EN119P1",
+                                      "coeff":0.5,
+                                      "type": "note pratique",
+                                      "enseignant": "Bruno HEURTEBIZE",
+                                      "optionnel":false
+                                    }
+                                ]
+                            },
+                            {
+                              "intitule":"anglais renforcé",
+                              "codeApogee": "711EN120",
+                              "coeff":1,
+                              "optionnel":false,
+                              "epreuve":[
+                                    {
+                                      "intitule": "Anglais renforcé (T)",
+                                      "codeApogee": "711EN120T1",
+                                      "coeff":0.5,
+                                      "type": "examen théorique",
+                                      "enseignant": "Liz DAVIDSON",
+                                      "optionnel":false
+                                    },
+                                    {
+                                      "intitule": "Anglais renforcé (P)",
+                                      "codeApogee": "711EN120P1",
+                                      "coeff":0.5,
+                                      "type": "note pratique",
+                                      "enseignant": "Liz DAVIDSON",
+                                      "optionnel":false
+                                    }
+                                ]
+                            }                        
+                        ]
+                    },
+                    {
+                      "intitule": "M1103 Théories de l'information & de la communication S1",
+                      "codeApogee": "711MD102",
+                      "coeff":1,
+                      "colonneRecap":"I",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Théories de l'InfoCom RP (T)",
+                          "codeApogee": "711EN102T3",
+                          "coeff":0.25,
+                          "type": "examen théorique",
+                          "enseignant": "Raphaëlle CRÉTIN-PIROLLI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Théories de l'InfoCom RP (P)",
+                          "codeApogee": "711EN102P2",
+                          "coeff":0.25,
+                          "type": "note pratique",
+                          "enseignant": "Raphaëlle CRÉTIN-PIROLLI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Théories de l'InfoCom  CS (T)",
+                          "codeApogee": "711EN102T4",
+                          "coeff":0.5,
+                          "type": "examen théorique",
+                          "enseignant": "Colin SCHMIDT",
+                          "optionnel":false
+                        } 
+                    ]
+                    },
+                    {
+                      "intitule": "M1104 Esthétique et expression artistiques S1",
+                      "codeApogee": "711MD103",
+                      "coeff":2,
+                      "colonneRecap":"J",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Histoire de l'Art (T)",
+                          "codeApogee": "711EN103T1",
+                          "coeff":0.46,
+                          "type": "examen théorique",
+                          "enseignant": "Jean-Christophe HABAULT / Gildas JAFFRENNOU",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Esthétique et Création artistique (P)",
+                          "codeApogee": "711EN103P1",
+                          "coeff":1.54,
+                          "type": "note pratique",
+                          "enseignant": "Jean-Christophe HABAULT",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M1105 Ecriture pour les médias numériques S1",
+                      "codeApogee": "711MD104",
+                      "coeff":2,
+                      "colonneRecap":"K",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Culture du multimédia (T)",
+                          "codeApogee": "711EN104T1",
+                          "coeff":0.6,
+                          "type": "examen théorique",
+                          "enseignant": "Colin SCHMIDT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Culture du multimédia (P)",
+                          "codeApogee": "711EN104P3",
+                          "coeff":0.6,
+                          "type": "note pratique",
+                          "enseignant": "Colin SCHMIDT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Analyse photographique et filmique (P)",
+                          "codeApogee": "711EN104P5",
+                          "coeff":0.8,
+                          "type": "note pratique",
+                          "enseignant": "Eric HOULIERE",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M1106 Expression, communication écrite et orale S1",
+                      "codeApogee": "711MD105",
+                      "coeff":3,
+                      "colonneRecap":"L",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Expression, communication écrite et orale (T)",
+                          "codeApogee": "711EN105T1",
+                          "coeff":1,
+                          "type": "examen théorique",
+                          "enseignant": "Fabrice PIROLLI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Expression, communication écrite et orale (P)",
+                          "codeApogee": "711EN105P3",
+                          "coeff":2,
+                          "type": "note pratique",
+                          "enseignant": "Fabrice PIROLLI",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M1107 Gestion de projet S1",
+                      "codeApogee": "711MD106",
+                      "coeff":2,
+                      "colonneRecap":"M",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Gestion de projet (T)",
+                          "codeApogee": "711EN106T1",
+                          "coeff":1,
+                          "type": "examen théorique",
+                          "enseignant": "Nathalie VIEILLARD",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Gestion de projet (P)",
+                          "codeApogee": "711EN106P1",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Nathalie VIEILLARD",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M1108 Projet Personnel et Professionnel S1",
+                      "codeApogee": "711MD107",
+                      "coeff":1,
+                      "colonneRecap":"N",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "PPP MB SB (P)",
+                          "codeApogee": "711EN107P1",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Magali BOULET / Sarah BERTRAND",
+                          "optionnel":false
+                        }
+                    ]
+                    },
+                    {
+                      "intitule": "M1109 Environnement juridique, éco & mercatique des org S1",
+                      "codeApogee": "711MD108",
+                      "coeff":2,
+                      "colonneRecap":"O",
+                      "optionnel":false,
+                      "epreuve": [
+                        {
+                          "intitule": "Principes de Mercatique (P)",
+                          "codeApogee": "711EN108P1",
+                          "coeff":2,
+                          "type": "note pratique",
+                          "enseignant": "Antoine FONDJO POLA",
+                          "optionnel":false
+                        }
+                    ]
+                    }         
+                ]
+        },
+        {
+          "intitule": "UE12 - Culture techno. & développement multimédia : Bases",
+          "codeApogee": "711UE102",
+          "coeff": 14,
+          "colonneRecap":"F",
+          "optionnel":false,
+            "module": [
+                {
+                  "intitule": "M1201 Culture scientifique et traitement de l'information S1",
+                  "codeApogee": "711MD110",
+                  "coeff":3,
+                  "colonneRecap":"P",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Mathématiques pour le signal (T)",
+                          "codeApogee": "711EN110T1",
+                          "coeff":0.5,
+                          "type": "épreuve théorique",
+                          "enseignant": "Younss MESSOUDI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Mathématiques pour le signal (P)",
+                          "codeApogee": "711EN110P1",
+                          "coeff":0.75,
+                          "type": "note pratique",
+                          "enseignant": "Younss MESSOUDI",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Introduction au signal (T)",
+                          "codeApogee": "711EN110T2",
+                          "coeff":0.75,
+                          "type": "épreuve théorique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Introduction au signal (Mise à niveau)",
+                          "codeApogee": "711EN110P2",
+                          "coeff":0.1,
+                          "type": "note pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Introduction au signal (Examen Pratique)",
+                          "codeApogee": "711EN110P5",
+                          "coeff":0.5,
+                          "type": "examen pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Introduction au signal (Projet MAX/MSP)",
+                          "codeApogee": "711EN110P6",
+                          "coeff":0.4,
+                          "type": "note pratique",
+                          "enseignant": "Fabien GUNTZ",
+                          "optionnel":false
+                        }                        
+                    ]            
+                },
+                {
+                  "intitule": "M1202 Algorithme et programmation S1",
+                  "codeApogee": "711MD111",
+                  "coeff":2,
+                  "colonneRecap":"Q",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Bases de l'algorithmique (T)",
+                          "codeApogee": "711EN111T1",
+                          "coeff":1,
+                          "type": "épreuve théorique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Bases de la programmation java (Examen pratique)",
+                          "codeApogee": "711EN111P4",
+                          "coeff":1,
+                          "type": "examen pratique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M1203 Services sur réseaux S1",
+                  "codeApogee": "711MD112",
+                  "coeff":3,
+                  "colonneRecap":"R",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Service sur réseaux (T)",
+                          "codeApogee": "711EN112T1",
+                          "coeff":1.5,
+                          "type": "épreuve théorique",
+                          "enseignant": "Alain CORBIERE",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Service sur réseaux (P)",
+                          "codeApogee": "711EN112P1",
+                          "coeff":1.5,
+                          "type": "note pratique",
+                          "enseignant": "Alain CORBIERE",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M1204 Infographie S1",
+                  "codeApogee": "711MD113",
+                  "coeff":2,
+                  "colonneRecap":"S",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Initiation à l'Infographie (P)",
+                          "codeApogee": "711EN113P1",
+                          "coeff":3,
+                          "type": "note pratique",
+                          "enseignant": "Jean-Christophe HABAULT",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M1205 Intégration web S1",
+                  "codeApogee": "711MD114",
+                  "coeff":2,
+                  "colonneRecap":"T",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Intégration web (Examen pratique)",
+                          "codeApogee": "711EN114P3",
+                          "coeff":1,
+                          "type": "examen théorique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Intégration web (Projet Site Web)",
+                          "codeApogee": "711EN114P2",
+                          "coeff":1,
+                          "type": "note pratique",
+                          "enseignant": "Anne-Marie PUIZILLOUT",
+                          "optionnel":false
+                        }
+                    ]                      
+                },
+                {
+                  "intitule": "M1206 Production audiovisuelle S1",
+                  "codeApogee": "711MD115",
+                  "coeff":2,
+                  "colonneRecap":"U",
+                  "optionnel":false,
+                  "epreuve": [
+                        {
+                          "intitule": "Théories de la bande son et approche de la prise de son (T)",
+                          "codeApogee": "711EN115T1",
+                          "coeff":0.8,
+                          "type": "examen théorique",
+                          "enseignant": "François-Xavier ROBERT",
+                          "optionnel":false
+                        },
+                        {
+                          "intitule": "Photographie EH (P)",
+                          "codeApogee": "711EN115P2",
+                          "coeff":1.2,
+                          "type": "note pratique",
+                          "enseignant": "Eric HOULIERE",
+                          "optionnel":false
+                        }
+                    ]                      
+                }
+            ]
+        },
+        {
+          "intitule": "Elément facultatif",
+          "codeApogee": "701FAC01",
+          "coeff": 0.02,
+          "colonneRecap":"0",
+          "optionnel":true,
+            "module": [
+                {
+                  "intitule": "Sport",
+                  "codeApogee": "701EN001",
+                  "coeff": 0.02,
+                  "optionnel":true
+                },
+                {
+                  "intitule": "Culture",
+                  "codeApogee": "701EN002",
+                  "coeff": 0.02,
+                  "optionnel":true
+                }
+            ]          
+        }  
+    ]
+}

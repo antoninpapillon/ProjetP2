@@ -1,0 +1,152 @@
+h1 {
+	border-bottom: 2px solid #e6007e;
+	color: #263a7a;
+	margin: 0 40px 20px 20px;
+	padding: 0 0 10px 0;
+}
+
+section {
+	background: #fcfdff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+section>div {
+	padding: 7px;
+}
+
+section>div:first-child {
+	align-items: center;
+	background: #263a7a;
+	color: #fcfdff;
+	display: flex;
+	height: 45px;
+	padding: 0;
+}
+
+section>div:first-child>img {
+	display: block;
+	width: 40px;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 16px;
+	padding-left: 15px;
+}
+
+section>div:last-child {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+table,
+td,
+th,
+tr {
+	border-collapse: collapse;
+	padding: 0;
+	width: 100%;
+}
+
+th {
+	background: #263a7a;
+	color: #fcfdff;
+}
+
+td,
+th {
+	padding: 5px 10px;
+	text-align: center;
+}
+
+table th {
+	text-align: left;
+}
+
+.module {
+	color: #263a7a;
+	font-weight: bold;
+}
+
+.test td:first-child {
+	padding: 5px 10px 5px 30px;
+}
+
+tr:nth-of-type(even) {
+	background: rgba(38, 58, 122, 0.1);
+}
+
+tr.unit {
+	background: #e6007e;
+	color: #fcfdff;
+	font-weight: bold;
+}
+
+td:first-child {
+	text-align: left;
+}
+
+.module.selected,
+.test.selected {
+	background: rgba(38, 58, 122, 0.75);
+	color: #fcfdff;
+}
+
+.moy {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+	margin: 40px 0 0 0;
+	width: 100%;
+}
+
+.moy>p:first-child {
+	margin: 0 20px 0 0;
+}
+
+.moy>p:last-child {
+	background: rgba(38, 58, 122, 0.1);
+	color: #263a7a;
+	font-weight: bold;
+	min-width: 40px;
+	padding: 10px;
+}
+
+@media screen and (min-width:480px) {
+	main>div {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	section {
+		width: 90%;
+	}
+}
+
+@media screen and (min-width:768px) {
+	section {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	section {
+		margin: 0;
+	}
+	main>div {
+		align-items: flex-start;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	section:nth-of-type(odd) {
+		margin: 0 60px 0 0;
+		width: 50%;
+	}
+	section:nth-of-type(even) {
+		width: 45%;
+	}
+}
