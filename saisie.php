@@ -9,6 +9,20 @@
 setlocale(LC_TIME, "fr_FR");
 require_once './listeEpreuve.php';
 
+
+
+/*
+ *
+ * Récupérer profils depuis BDD (en fonction d'une classe)
+ *
+ */
+
+
+function getStudents($class) {
+	
+}
+
+
 // PHPMailer
 require_once './src/phpmailer/class.phpmailer.php';
 define('NOTES_RECEIVER_EMAIL', 'pierre.barbaroux.pro@gmail.com');
