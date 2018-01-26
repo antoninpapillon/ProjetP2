@@ -108,6 +108,52 @@
 		
 		/*
 		//
+		// ------------ Sous Module
+		//
+		*/ 
+		foreach ($json_a['UE'] as $value) {
+			$codeApogeeUE = $value['codeApogee'];
+			if ($value['module'])
+			{
+				foreach ($value['module'] as $value)
+				{
+					$data_apogee = $value['codeApogee'];
+					$data_coeff = $value['coeff'];
+					$data_colonnerecap = $value['colonneRecap'];
+					$data_optionnel = $value['optionnel'];
+					$data_intitule = $value['intitule'];
+					$data_UE = $codeApogeeUE;
+					
+					$req_module = $DB->prepare('SELECT * FROM Module WHERE code_apogee=:code_apogee');
+					$req_module->bindValue(':code_apogee', $data_apogee, PDO::PARAM_STR);
+					$req_module->execute();
+					if($req_module->rowCount() > 0) {
+						echo "Le module $data_apogee existe déjà.<br />";
+					} else {
+						// Ajout du module dans la base de données
+						echo "Ajout du module : <b>$data_apogee</b><br />";
+						try {
+							$req_insert = $DB->prepare('INSERT INTO Module (code_apogee, coeff, colonne_recap, optionnel, intitule, code_apogee_UE) VALUES (:code_apogee, :coeff, :colonne_recap, :optionnel, :intitule, :code_apogee_UE)');
+							$req_insert->bindValue(':code_apogee', $data_apogee, PDO::PARAM_STR);
+							$req_insert->bindValue(':coeff', $data_coeff, PDO::PARAM_INT);
+							$req_insert->bindValue(':colonne_recap', $data_colonnerecap, PDO::PARAM_STR);
+							$req_insert->bindValue(':optionnel', $data_optionnel, PDO::PARAM_STR);
+							$req_insert->bindValue(':intitule', $data_intitule, PDO::PARAM_STR);
+							$req_insert->bindValue(':code_apogee_UE', $data_UE, PDO::PARAM_STR);
+							$req_insert->execute();
+						}
+						catch (PDOException $e) {
+							die($e->getMessage());
+						}
+						$req_insert->closeCursor();
+					}
+					$req_module->closeCursor();
+				}
+			}
+		}
+		
+		/*
+		//
 		// ------------ Epreuve
 		//
 		*/ 
