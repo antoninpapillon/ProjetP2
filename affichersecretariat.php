@@ -23,7 +23,7 @@
         </nav>
     </header>
     <main>
-        <h1>Afficher les notes reçues par mail</h1>
+        <h1>Affichage de notes à entrer dans Apogée</h1>
         <div>
             <section>
                 <div>

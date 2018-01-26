@@ -14,7 +14,7 @@ section {
 }
 
 section>div {
-	padding: 7px;
+	padding: 11px 7px;
 }
 
 section>div:first-child {
