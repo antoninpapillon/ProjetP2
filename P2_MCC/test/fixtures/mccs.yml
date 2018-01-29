@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nomPromo: MyString
+  codeApogee: MyString
+  semestre: MyString
+  coeff: 1
+  urlNotes: MyString
+
+two:
+  nomPromo: MyString
+  codeApogee: MyString
+  semestre: MyString
+  coeff: 1
+  urlNotes: MyString
