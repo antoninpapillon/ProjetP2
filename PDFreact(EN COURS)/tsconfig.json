@@ -1,0 +1,14 @@
+{
+"compileOnSave": true,
+"target": "esS",
+"sourceMap": true,
+"noImplicitAny": true,
+"module": "commonjs",
+"compilerOptions": {
+		"rootDir": "src",
+		"outDir": "dist",
+		"lib" : ["es6", "dom"],
+		"jsx": "react",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+	},
+	"exclude": [ "node_modules", "typing"]
+}

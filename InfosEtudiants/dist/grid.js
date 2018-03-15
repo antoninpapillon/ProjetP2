@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 28);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -303,9 +303,9 @@ module.exports = emptyFunction;
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(17);
+  module.exports = __webpack_require__(15);
 } else {
-  module.exports = __webpack_require__(18);
+  module.exports = __webpack_require__(16);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -565,25 +565,6 @@ module.exports = warning;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-exports.__esModule = true;
-var Control = /** @class */ (function () {
-    function Control(code, coefficient, label, value) {
-        this.code = code;
-        this.coefficient = coefficient;
-        this.label = label;
-        this.value = value;
-    }
-    return Control;
-}());
-exports.Control = Control;
-
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -596,7 +577,7 @@ exports.Control = Control;
 if (process.env.NODE_ENV !== 'production') {
   var invariant = __webpack_require__(5);
   var warning = __webpack_require__(6);
-  var ReactPropTypesSecret = __webpack_require__(19);
+  var ReactPropTypesSecret = __webpack_require__(17);
   var loggedTypeFailures = {};
 }
 
@@ -647,7 +628,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -686,7 +667,7 @@ var ExecutionEnvironment = {
 module.exports = ExecutionEnvironment;
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -767,7 +748,7 @@ module.exports = EventListener;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -809,7 +790,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -880,7 +861,7 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -895,7 +876,7 @@ module.exports = shallowEqual;
  * 
  */
 
-var isTextNode = __webpack_require__(22);
+var isTextNode = __webpack_require__(20);
 
 /*eslint-disable no-bitwise */
 
@@ -923,7 +904,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -953,208 +934,13 @@ function focusNode(node) {
 module.exports = focusNode;
 
 /***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-exports.__esModule = true;
-__webpack_require__(16);
-var React = __webpack_require__(2);
-var ReactDom = __webpack_require__(20);
-var display_grid_1 = __webpack_require__(29);
-var mark_1 = __webpack_require__(30);
-var module_1 = __webpack_require__(31);
-var unit_1 = __webpack_require__(32);
-var GridState = /** @class */ (function () {
-    function GridState(props) {
-        this.units = [];
-        this.modules = [];
-        this.marks = [];
-        this.average = undefined;
-    }
-    return GridState;
-}());
-var Grid = /** @class */ (function (_super) {
-    __extends(Grid, _super);
-    function Grid(props) {
-        var _this = _super.call(this, props) || this;
-        _this.state = new GridState(props);
-        return _this;
-    }
-    // Chargement des données en dur pour le moment, les données JSON seront importées d'ici ultérieurement
-    Grid.prototype.componentDidMount = function () {
-        this.setState({
-            units: [({
-                    code: "ue1",
-                    coefficient: 12,
-                    label: "Technologies web",
-                    value: 0
-                }), ({
-                    code: "ue2",
-                    coefficient: 15,
-                    label: "Outils de communication",
-                    value: 0
-                })],
-            modules: [({
-                    code: "module1",
-                    coefficient: 6,
-                    label: "Programmation",
-                    codeUnit: "ue1",
-                    optional: false,
-                    value: 0
-                }), ({
-                    code: "module2",
-                    coefficient: 5,
-                    label: "Web design",
-                    codeUnit: "ue1",
-                    optional: false,
-                    value: 0
-                }), ({
-                    code: "module3",
-                    coefficient: 5,
-                    label: "UX design",
-                    codeUnit: "module2",
-                    optional: false,
-                    value: 0
-                })],
-            marks: [({
-                    code: "mark1",
-                    coefficient: 2,
-                    label: "PHP Symfony",
-                    codeModule: "module1",
-                    optional: false,
-                    teacher: "Jérémie Libeau",
-                    type: "Pratique",
-                    value: 8
-                }), ({
-                    code: "mark2",
-                    coefficient: 4,
-                    label: "Ruby On Rails",
-                    codeModule: "module1",
-                    optional: false,
-                    teacher: "Martino Bettucci",
-                    type: "Pratique",
-                    value: 10
-                }), ({
-                    code: "mark3",
-                    coefficient: 2,
-                    label: "Maquettage",
-                    codeModule: "module2",
-                    optional: true,
-                    teacher: "Jean-Christophe Habault",
-                    type: "Pratique",
-                    value: 12
-                }), ({
-                    code: "mark4",
-                    coefficient: 5,
-                    label: "Programmation client",
-                    codeModule: "module2",
-                    optional: false,
-                    teacher: "Anne-Marie Puizilliout",
-                    type: "Pratique",
-                    value: 19.5
-                }), ({
-                    code: "mark5",
-                    coefficient: 1.5,
-                    label: "Interfaces Homme-Machine",
-                    codeModule: "module3",
-                    optional: false,
-                    teacher: "Vincent Bettenfeld",
-                    type: "Théorique",
-                    value: 5.5
-                })],
-            average: 15
-        });
-    };
-    // Ajout des UE suivies des modules associés, eux-mêmes suivis des épreuves associées
-    // Cependant les épreuves ne sont pas triées au sein des modules, et les modules ne sont pas triés au sein des UE, elles-mêmes non triées
-    // (Les lignes s'ajoutent dans l'ordre où elles arrivent)
-    // Exemple : ue1 module3 epreuve3 epreuve2 module2 epreuve1 ue3 ... (mais les épreuves au sein des modules sont bien celles du module et les modules au sein des UE appartiennent bien à l'UE)
-    Grid.prototype.buildRows = function (units, modules, marks) {
-        var j = 0, rows = [];
-        for (var u = 0; u < units.length; u++) {
-            rows[j] = new unit_1.Unit(units[u].code, units[u].coefficient, units[u].label, units[u].value);
-            j++;
-            for (var m = 0; m < modules.length; m++) {
-                if (modules[m].codeUnit == units[u].code) {
-                    rows[j] = new module_1.Module(modules[m].code, modules[m].coefficient, modules[m].label, modules[m].value, modules[m].codeUnit, modules[m].optional);
-                    j++;
-                    for (var c = 0; c < marks.length; c++) {
-                        if (marks[c].codeModule == modules[m].code) {
-                            rows[j] = new mark_1.Mark(marks[c].code, marks[c].coefficient, marks[c].label, marks[c].value, marks[c].codeModule, marks[c].optional, marks[c].teacher, marks[c].type);
-                            j++;
-                        }
-                    }
-                }
-                else {
-                    for (var n = 0; n < modules.length; n++) {
-                        if (modules[n].codeUnit == modules[m].code) {
-                            rows[j] = new module_1.Module(modules[n].code, modules[n].coefficient, modules[n].label, modules[n].value, modules[n].codeUnit, modules[n].optional);
-                            j++;
-                            for (var c = 0; c < marks.length; c++) {
-                                if (marks[c].codeModule == modules[n].code) {
-                                    rows[j] = new mark_1.Mark(marks[c].code, marks[c].coefficient, marks[c].label, marks[c].value, marks[c].codeModule, marks[c].optional, marks[c].teacher, marks[c].type);
-                                    j++;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return rows;
-    };
-    Grid.prototype.render = function () {
-        var rows = this.buildRows(this.state.units, this.state.modules, this.state.marks);
-        return (React.createElement("div", null,
-            React.createElement("div", null,
-                React.createElement("img", { src: "", alt: "" }),
-                React.createElement("h2", null, "Mes r\u00E9sultats")),
-            React.createElement("div", null,
-                React.createElement("table", null,
-                    React.createElement("thead", null,
-                        React.createElement("tr", null,
-                            React.createElement("th", null, "Intitul\u00E9"),
-                            React.createElement("th", null, "Coefficient"),
-                            React.createElement("th", { className: "nosp" }, "Min."),
-                            React.createElement("th", { className: "nosp" }, "Moy. classe"),
-                            React.createElement("th", { className: "nosp" }, "Max."),
-                            React.createElement("th", null, "Note"),
-                            React.createElement("th", { className: "nosp" }, "Rank"))),
-                    React.createElement("tbody", null, rows && rows.map(function (row) {
-                        // Pour chaque note dans la liste de notes, ajout d'une ligne dans la grille avec les valeurs de la note
-                        return (React.createElement(display_grid_1.DisplayGrid, { row: row, key: row.code }));
-                    }))),
-                React.createElement("div", { className: "moy" },
-                    React.createElement("p", null, "Moyenne g\u00E9n\u00E9rale"),
-                    React.createElement("p", null, this.state.average)))));
-    };
-    return Grid;
-}(React.Component));
-exports.Grid = Grid;
-// Intégration de la grille dans la section d'id #grid
-ReactDom.render(React.createElement(Grid, null), document.getElementById("grid"));
-
-
-/***/ }),
-/* 16 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "dist/index.html";
 
 /***/ }),
-/* 17 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1182,7 +968,7 @@ isValidElement:K,version:"16.2.0",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_F
 
 
 /***/ }),
-/* 18 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1208,7 +994,7 @@ var emptyObject = __webpack_require__(4);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
 var emptyFunction = __webpack_require__(1);
-var checkPropTypes = __webpack_require__(8);
+var checkPropTypes = __webpack_require__(7);
 
 // TODO: this is special because it gets imported during build.
 
@@ -2547,7 +2333,7 @@ module.exports = react;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 19 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2566,7 +2352,7 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 20 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2604,15 +2390,15 @@ if (process.env.NODE_ENV === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(21);
+  module.exports = __webpack_require__(19);
 } else {
-  module.exports = __webpack_require__(24);
+  module.exports = __webpack_require__(22);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 21 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2628,7 +2414,7 @@ if (process.env.NODE_ENV === 'production') {
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(2),l=__webpack_require__(9),B=__webpack_require__(3),C=__webpack_require__(1),ba=__webpack_require__(10),da=__webpack_require__(11),ea=__webpack_require__(12),fa=__webpack_require__(13),ia=__webpack_require__(14),D=__webpack_require__(4);
+var aa=__webpack_require__(2),l=__webpack_require__(8),B=__webpack_require__(3),C=__webpack_require__(1),ba=__webpack_require__(9),da=__webpack_require__(10),ea=__webpack_require__(11),fa=__webpack_require__(12),ia=__webpack_require__(13),D=__webpack_require__(4);
 function E(a){for(var b=arguments.length-1,c="Minified React error #"+a+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\x3d"+a,d=0;d<b;d++)c+="\x26args[]\x3d"+encodeURIComponent(arguments[d+1]);b=Error(c+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.");b.name="Invariant Violation";b.framesToPop=1;throw b;}aa?void 0:E("227");
 var oa={children:!0,dangerouslySetInnerHTML:!0,defaultValue:!0,defaultChecked:!0,innerHTML:!0,suppressContentEditableWarning:!0,suppressHydrationWarning:!0,style:!0};function pa(a,b){return(a&b)===b}
 var ta={MUST_USE_PROPERTY:1,HAS_BOOLEAN_VALUE:4,HAS_NUMERIC_VALUE:8,HAS_POSITIVE_NUMERIC_VALUE:24,HAS_OVERLOADED_BOOLEAN_VALUE:32,HAS_STRING_BOOLEAN_VALUE:64,injectDOMPropertyConfig:function(a){var b=ta,c=a.Properties||{},d=a.DOMAttributeNamespaces||{},e=a.DOMAttributeNames||{};a=a.DOMMutationMethods||{};for(var f in c){ua.hasOwnProperty(f)?E("48",f):void 0;var g=f.toLowerCase(),h=c[f];g={attributeName:g,attributeNamespace:null,propertyName:f,mutationMethod:null,mustUseProperty:pa(h,b.MUST_USE_PROPERTY),
@@ -2848,7 +2634,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
 
 
 /***/ }),
-/* 22 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2863,7 +2649,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
  * @typechecks
  */
 
-var isNode = __webpack_require__(23);
+var isNode = __webpack_require__(21);
 
 /**
  * @param {*} object The object to check.
@@ -2876,7 +2662,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 23 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2904,7 +2690,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 24 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2928,18 +2714,18 @@ if (process.env.NODE_ENV !== "production") {
 var React = __webpack_require__(2);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
-var ExecutionEnvironment = __webpack_require__(9);
+var ExecutionEnvironment = __webpack_require__(8);
 var _assign = __webpack_require__(3);
 var emptyFunction = __webpack_require__(1);
-var EventListener = __webpack_require__(10);
-var getActiveElement = __webpack_require__(11);
-var shallowEqual = __webpack_require__(12);
-var containsNode = __webpack_require__(13);
-var focusNode = __webpack_require__(14);
+var EventListener = __webpack_require__(9);
+var getActiveElement = __webpack_require__(10);
+var shallowEqual = __webpack_require__(11);
+var containsNode = __webpack_require__(12);
+var focusNode = __webpack_require__(13);
 var emptyObject = __webpack_require__(4);
-var checkPropTypes = __webpack_require__(8);
-var hyphenateStyleName = __webpack_require__(25);
-var camelizeStyleName = __webpack_require__(27);
+var checkPropTypes = __webpack_require__(7);
+var hyphenateStyleName = __webpack_require__(23);
+var camelizeStyleName = __webpack_require__(25);
 
 /**
  * WARNING: DO NOT manually require this module.
@@ -18306,7 +18092,7 @@ module.exports = reactDom;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 25 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18321,7 +18107,7 @@ module.exports = reactDom;
 
 
 
-var hyphenate = __webpack_require__(26);
+var hyphenate = __webpack_require__(24);
 
 var msPattern = /^ms-/;
 
@@ -18348,7 +18134,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 26 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18384,7 +18170,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 27 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18399,7 +18185,7 @@ module.exports = hyphenate;
 
 
 
-var camelize = __webpack_require__(28);
+var camelize = __webpack_require__(26);
 
 var msPattern = /^-ms-/;
 
@@ -18427,7 +18213,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 28 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18460,6 +18246,220 @@ function camelize(string) {
 }
 
 module.exports = camelize;
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.__esModule = true;
+var Control = /** @class */ (function () {
+    function Control(code, coefficient, label, value) {
+        this.code = code;
+        this.coefficient = coefficient;
+        this.label = label;
+        this.value = value;
+    }
+    return Control;
+}());
+exports.Control = Control;
+
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+exports.__esModule = true;
+__webpack_require__(14);
+var React = __webpack_require__(2);
+var ReactDom = __webpack_require__(18);
+var display_grid_1 = __webpack_require__(29);
+var mark_1 = __webpack_require__(30);
+var module_1 = __webpack_require__(31);
+var unit_1 = __webpack_require__(32);
+var GridState = /** @class */ (function () {
+    function GridState(props) {
+        this.units = [];
+        this.modules = [];
+        this.marks = [];
+        this.average = undefined;
+    }
+    return GridState;
+}());
+var Grid = /** @class */ (function (_super) {
+    __extends(Grid, _super);
+    function Grid(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = new GridState(props);
+        return _this;
+    }
+    // Chargement des données en dur pour le moment, les données JSON seront importées d'ici ultérieurement
+    Grid.prototype.componentDidMount = function () {
+        this.setState({
+            units: [({
+                    code: "ue1",
+                    coefficient: 12,
+                    label: "Technologies web",
+                    value: 0
+                }), ({
+                    code: "ue2",
+                    coefficient: 15,
+                    label: "Outils de communication",
+                    value: 0
+                })],
+            modules: [({
+                    code: "module1",
+                    coefficient: 6,
+                    label: "Programmation",
+                    codeUnit: "ue1",
+                    optional: false,
+                    value: 0
+                }), ({
+                    code: "module2",
+                    coefficient: 5,
+                    label: "Web design",
+                    codeUnit: "ue1",
+                    optional: false,
+                    value: 0
+                }), ({
+                    code: "module3",
+                    coefficient: 5,
+                    label: "UX design",
+                    codeUnit: "module2",
+                    optional: false,
+                    value: 0
+                })],
+            marks: [({
+                    code: "mark1",
+                    coefficient: 2,
+                    label: "PHP Symfony",
+                    codeModule: "module1",
+                    optional: false,
+                    teacher: "Jérémie Libeau",
+                    type: "Pratique",
+                    value: 8
+                }), ({
+                    code: "mark2",
+                    coefficient: 4,
+                    label: "Ruby On Rails",
+                    codeModule: "module1",
+                    optional: false,
+                    teacher: "Martino Bettucci",
+                    type: "Pratique",
+                    value: 10
+                }), ({
+                    code: "mark3",
+                    coefficient: 2,
+                    label: "Maquettage",
+                    codeModule: "module2",
+                    optional: true,
+                    teacher: "Jean-Christophe Habault",
+                    type: "Pratique",
+                    value: 12
+                }), ({
+                    code: "mark4",
+                    coefficient: 5,
+                    label: "Programmation client",
+                    codeModule: "module2",
+                    optional: false,
+                    teacher: "Anne-Marie Puizilliout",
+                    type: "Pratique",
+                    value: 19.5
+                }), ({
+                    code: "mark5",
+                    coefficient: 1.5,
+                    label: "Interfaces Homme-Machine",
+                    codeModule: "module3",
+                    optional: false,
+                    teacher: "Vincent Bettenfeld",
+                    type: "Théorique",
+                    value: 5.5
+                })],
+            average: 15
+        });
+    };
+    // Ajout des UE suivies des modules associés, eux-mêmes suivis des épreuves associées
+    // Cependant les épreuves ne sont pas triées au sein des modules, et les modules ne sont pas triés au sein des UE, elles-mêmes non triées
+    // (Les lignes s'ajoutent dans l'ordre où elles arrivent)
+    // Exemple : ue1 module3 epreuve3 epreuve2 module2 epreuve1 ue3 ... (mais les épreuves au sein des modules sont bien celles du module et les modules au sein des UE appartiennent bien à l'UE)
+    Grid.prototype.buildRows = function (units, modules, marks) {
+        var j = 0, rows = [];
+        for (var u = 0; u < units.length; u++) {
+            rows[j] = new unit_1.Unit(units[u].code, units[u].coefficient, units[u].label, units[u].value);
+            j++;
+            for (var m = 0; m < modules.length; m++) {
+                if (modules[m].codeUnit == units[u].code) {
+                    rows[j] = new module_1.Module(modules[m].code, modules[m].coefficient, modules[m].label, modules[m].value, modules[m].codeUnit, modules[m].optional);
+                    j++;
+                    for (var c = 0; c < marks.length; c++) {
+                        if (marks[c].codeModule == modules[m].code) {
+                            rows[j] = new mark_1.Mark(marks[c].code, marks[c].coefficient, marks[c].label, marks[c].value, marks[c].codeModule, marks[c].optional, marks[c].teacher, marks[c].type);
+                            j++;
+                        }
+                    }
+                }
+                else {
+                    for (var n = 0; n < modules.length; n++) {
+                        if (modules[n].codeUnit == modules[m].code) {
+                            rows[j] = new module_1.Module(modules[n].code, modules[n].coefficient, modules[n].label, modules[n].value, modules[n].codeUnit, modules[n].optional);
+                            j++;
+                            for (var c = 0; c < marks.length; c++) {
+                                if (marks[c].codeModule == modules[n].code) {
+                                    rows[j] = new mark_1.Mark(marks[c].code, marks[c].coefficient, marks[c].label, marks[c].value, marks[c].codeModule, marks[c].optional, marks[c].teacher, marks[c].type);
+                                    j++;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return rows;
+    };
+    Grid.prototype.render = function () {
+        var rows = this.buildRows(this.state.units, this.state.modules, this.state.marks);
+        return (React.createElement("div", null,
+            React.createElement("div", null,
+                React.createElement("img", { src: "", alt: "" }),
+                React.createElement("h2", null, "Mes r\u00E9sultats")),
+            React.createElement("div", null,
+                React.createElement("table", null,
+                    React.createElement("thead", null,
+                        React.createElement("tr", null,
+                            React.createElement("th", null, "Intitul\u00E9"),
+                            React.createElement("th", null, "Coefficient"),
+                            React.createElement("th", { className: "nosp" }, "Min."),
+                            React.createElement("th", { className: "nosp" }, "Moy. classe"),
+                            React.createElement("th", { className: "nosp" }, "Max."),
+                            React.createElement("th", null, "Note"),
+                            React.createElement("th", { className: "nosp" }, "Rank"))),
+                    React.createElement("tbody", null, rows && rows.map(function (row) {
+                        // Pour chaque note dans la liste de notes, ajout d'une ligne dans la grille avec les valeurs de la note
+                        return (React.createElement(display_grid_1.DisplayGrid, { row: row, key: row.code }));
+                    }))),
+                React.createElement("div", { className: "moy" },
+                    React.createElement("p", null, "Moyenne g\u00E9n\u00E9rale"),
+                    React.createElement("p", null, this.state.average)))));
+    };
+    return Grid;
+}(React.Component));
+exports.Grid = Grid;
+// Intégration de la grille dans la section d'id #grid
+ReactDom.render(React.createElement(Grid, null), document.getElementById("grid"));
+
 
 /***/ }),
 /* 29 */
@@ -18541,7 +18541,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var control_1 = __webpack_require__(7);
+var control_1 = __webpack_require__(27);
 var Mark = /** @class */ (function (_super) {
     __extends(Mark, _super);
     function Mark(code, coefficient, label, value, codeModule, optional, teacher, type) {
@@ -18574,7 +18574,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var control_1 = __webpack_require__(7);
+var control_1 = __webpack_require__(27);
 var Module = /** @class */ (function (_super) {
     __extends(Module, _super);
     function Module(code, coefficient, label, value, codeUnit, optional) {
@@ -18605,7 +18605,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var control_1 = __webpack_require__(7);
+var control_1 = __webpack_require__(27);
 var Unit = /** @class */ (function (_super) {
     __extends(Unit, _super);
     function Unit(code, coefficient, label, value) {

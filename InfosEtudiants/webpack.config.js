@@ -2,6 +2,7 @@ module.exports = {
     // context: __dirname,
 	entry:{
 		grid:"./src/grid/grid.tsx",
+		infos: "./src/grid/infos.tsx",
 	},
 	devtool: "source-map",
 	output:{

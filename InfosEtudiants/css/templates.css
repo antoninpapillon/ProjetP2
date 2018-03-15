@@ -90,6 +90,27 @@ tr.unit.selected,tr.module.selected,tr.mark.selected {
 	min-width:40px;
 	padding:10px;
 }
+.flex{
+	display : flex;
+}
+
+.flex1{
+	flex: 1;
+	margin-left: 40px;
+	font-weight: bold;
+	
+}
+
+section > div > div.block{
+display : block;
+align-items:left;
+}
+
+.flex2{
+	flex: 2;
+}
+
+
 @media screen and (min-width:480px) {
 	main > div {
 		align-items:center;
