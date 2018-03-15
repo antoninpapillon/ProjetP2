@@ -1,0 +1,157 @@
+html {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+body {
+	background:url("../pics/layout/background.jpg") fixed;
+	background-size:cover;
+}
+header {
+	align-items:center;
+	background:#263a7a;
+	border-bottom:5px solid #e6007e;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding:0 15px;
+}
+header > div, nav > ul {
+	display:flex;
+	flex-direction:row;
+}
+header > div {
+	align-items:center;
+}
+header > div:first-of-type {
+	justify-content:flex-start;
+	width:50%;
+}
+header img {
+	display:block;
+	margin:0 20px 0 0;
+}
+header p {
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+}
+nav {
+	width:50%;
+}
+nav > ul {
+	align-items:center;
+	justify-content:flex-end;
+}
+nav li {
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	margin:0 15px 0 0;
+	text-align:center;
+}
+nav li:last-child {
+	margin:0;
+}
+nav a {
+	color:#263a7a;
+}
+a.btn {
+	background:#e6007e;
+	color:#fff;
+	display:inline-block;
+	font-size:14px;
+	padding:15px;
+	position:relative;
+	overflow:hidden;
+	transition:0.3s;
+}
+a.btn::after {
+	background:#fff;
+	bottom:0;
+	content:'';
+	height:100%;
+	left:0;
+	position:absolute;
+	overflow:hidden;
+	transform:translateY(-100%);
+	transition:transform .5s ease;
+	width:100%;
+	z-index:0;
+}
+a.btn:hover {
+	color:#e6007e;
+}
+a.btn:hover::after {
+	transform:translateY(0);
+}
+a.btn span {
+	align-items:center;
+	/*display:flex;*/
+	position:relative;
+	z-index:1;
+}
+.desktop {
+	display:none;
+}
+.small {
+	display:flex;
+}
+main {
+	background:rgba(252, 253, 255, 0.7);
+	font-size:11px;
+	padding:15px 10px;
+}
+footer {
+	background:#263a7a;
+	font-size:12px;
+}
+footer, footer a {
+	color:#fcfdff;
+}
+footer > ul {
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	width:100%;
+}
+footer > ul a {
+	color:#e6007e;
+}
+footer span {
+	display:none;
+	font-size:22px;
+	font-weight:bold;
+}
+@media screen and (min-width:768px) {
+	header > div {
+		width:30%;
+	}
+	header p {
+		font-size:22px;
+	}
+	.desktop {
+		display:flex;
+	}
+	.small {
+		display:none;
+	}
+	main {
+		font-size:12px;
+	}
+}
+@media screen and (min-width:1024px) {
+	footer {
+		align-items:center;
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+	}
+	footer span {
+		display:block;
+	}
+}
